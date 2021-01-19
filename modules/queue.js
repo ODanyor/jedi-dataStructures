@@ -1,16 +1,16 @@
 import { LinkedList } from "./linkedList.js";
 
-export class Stack { // LIFO (lust in, first out)
+export class Queue {
   constructor () {
     this.list = new LinkedList();
   }
 
-  push (value) {
-    this.list.prepend(value);
+  enqueue (value) {
+    this.list.append(value);
   }
 
-  pop () {
-    return this.list.deleteHead();
+  dequeue () {
+    this.list.deleteHead();
   }
 
   isEmpty () {

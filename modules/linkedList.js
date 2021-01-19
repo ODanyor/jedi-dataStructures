@@ -81,10 +81,3 @@ export class LinkedList {
     return elements;
   }
 }
-
-function linkedListModule () {
-  const linkedList = new LinkedList();
-  console.log(linkedList);
-}
-
-export default linkedListModule;

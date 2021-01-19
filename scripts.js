@@ -1,11 +1,16 @@
-import linkedListModule from "./modules/linkedList.js";
-import stackModule from "./modules/stack.js";
+import { LinkedList } from "./modules/linkedList.js";
+import { Stack } from "./modules/stack.js";
+import { Queue } from "./modules/queue.js";
 
 function main () {
-  console.log("<<< DATA STRUCTURES >>>");
+  const queue = new Queue();
 
-  // linkedListModule();
-  stackModule();
+  queue.enqueue("person1");
+  queue.enqueue("person2");
+  queue.enqueue("person3");
+  queue.dequeue();
+
+  console.log(queue.toArray());
 }
 
 window.addEventListener("load", main);

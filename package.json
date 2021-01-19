@@ -4,6 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "http-server"
+    "http": "http-server",
+    "live": "live-server"
   }
 }
