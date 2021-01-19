@@ -1,4 +1,4 @@
-export class LinkedList {
+export default class LinkedList {
   constructor () {
     this.head = null; // first element of the list
     this.tail = null; // lust element of the list

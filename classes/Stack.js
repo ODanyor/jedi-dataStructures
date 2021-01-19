@@ -1,6 +1,6 @@
-import { LinkedList } from "./linkedList.js";
+import { LinkedList } from "./LinkedList.js";
 
-export class Stack { // LIFO (lust in, first out)
+export default class Stack { // LIFO (lust in, first out)
   constructor () {
     this.list = new LinkedList();
   }

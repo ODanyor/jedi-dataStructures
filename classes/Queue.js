@@ -1,6 +1,6 @@
-import { LinkedList } from "./linkedList.js";
+import { LinkedList } from "./LinkedList.js";
 
-export class Queue {
+export default class Queue {
   constructor () {
     this.list = new LinkedList();
   }
