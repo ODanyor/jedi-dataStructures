@@ -1,6 +1,6 @@
-import { LinkedList } from "./classes/LinkedList.js";
-import { Stack } from "./classes/Stack.js";
-import { Queue } from "./classes/Queue.js";
+import LinkedList from "./classes/LinkedList.js";
+import Stack from "./classes/Stack.js";
+import Queue from "./classes/Queue.js";
 
 function main () {
   const queue = new Queue();
